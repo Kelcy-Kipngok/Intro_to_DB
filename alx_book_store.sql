@@ -4,7 +4,7 @@ USE alx_book_store;
 
 CREATE TABLE IF NOT EXISTS Authors (
     Authors_id INT PRIMARY KEY AUTO_INCREMENT,
-    Authors_name VARCHAR(215) NOT NULL
+    author_name VARCHAR(215) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS books (
